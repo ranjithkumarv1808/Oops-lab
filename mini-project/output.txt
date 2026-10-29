@@ -1,0 +1,88 @@
+====== STUDENT PERFORMANCE ANALYZER ======
+Enter number of subjects : 5
+Enter name of subject 1   : Maths
+Enter name of subject 2   : Physics
+Enter name of subject 3   : Chemistry
+Enter name of subject 4   : English
+Enter name of subject 5   : Java
+Enter number of students : 5
+
+Enter name of student 1 : Arun
+  Marks in Maths (0-100) : 92
+  Marks in Physics (0-100) : 88
+  Marks in Chemistry (0-100) : 95
+  Marks in English (0-100) : 85
+  Marks in Java (0-100) : 98
+
+Enter name of student 2 : Bala
+  Marks in Maths (0-100) : 75
+  Marks in Physics (0-100) : 68
+  Marks in Chemistry (0-100) : 72
+  Marks in English (0-100) : 80
+  Marks in Java (0-100) : 70
+
+Enter name of student 3 : Charan
+  Marks in Maths (0-100) : 45
+  Marks in Physics (0-100) : 52
+  Marks in Chemistry (0-100) : 40
+  Marks in English (0-100) : 60
+  Marks in Java (0-100) : 48
+
+Enter name of student 4 : Divya
+  Marks in Maths (0-100) : 85
+  Marks in Physics (0-100) :   Invalid! Please enter a number.
+abc
+  Marks in Physics (0-100) : 82
+  Marks in Chemistry (0-100) : 78
+  Marks in English (0-100) : 90
+  Marks in Java (0-100) : 88
+
+Enter name of student 5 : Eswar
+  Marks in Maths (0-100) : 60
+  Marks in Physics (0-100) :   Invalid! Enter a value between 0 and 100.
+  Marks in Physics (0-100) : 55
+  Marks in Chemistry (0-100) : 65
+  Marks in English (0-100) : 58
+  Marks in Java (0-100) : 62
+
+================ MARK TABLE ================
+Student       Maths       Physics     Chemistry   English     Java        Total   Average  Category          
+-------------------------------------------------------------------------------------------------------------
+Arun          92          88          95          85          98          458     91.60    Excellent         
+Bala          75          68          72          80          70          365     73.00    Good              
+Charan        45          52          40          60          48          245     49.00    Needs Improvement 
+Divya         85          82          78          90          88          423     84.60    Good              
+Eswar         60          55          65          58          62          300     60.00    Average           
+
+============ SUBJECT-WISE ANALYSIS ============
+Subject  : Maths
+  Highest: 92 (Arun)
+  Lowest : 45 (Charan)
+  Average: 71.40  [Good]
+
+Subject  : Physics
+  Highest: 88 (Arun)
+  Lowest : 52 (Charan)
+  Average: 69.00  [Average]
+
+Subject  : Chemistry
+  Highest: 95 (Arun)
+  Lowest : 40 (Charan)
+  Average: 70.00  [Good]
+
+Subject  : English
+  Highest: 90 (Divya)
+  Lowest : 58 (Eswar)
+  Average: 74.60  [Good]
+
+Subject  : Java
+  Highest: 98 (Arun)
+  Lowest : 48 (Charan)
+  Average: 73.20  [Good]
+
+============== OVERALL ANALYSIS ==============
+Number of students : 5
+Class topper       : Arun (Total 458)
+Lowest performer   : Charan (Total 245)
+Class average      : 71.64
+Class category     : Good
